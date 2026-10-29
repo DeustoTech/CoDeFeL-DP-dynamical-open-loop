@@ -1,0 +1,9 @@
+{
+  "scope": "Only add penalty-and-repair to the three manuscript time-convergence panels.",
+  "timing_decision_stage": "Specified during public calibration, before penalty test results were collected.",
+  "plot_time": "Recorded elapsed time minus all intermediate repaired-point diagnostic-adjoint durations, plus one repaired-point adjoint duration for the current returned candidate when needed. Exact cached candidate evaluations reuse their recorded duration. Raw optimization adjoints, Adam updates, repair and inexpensive diagnostics remain included.",
+  "reason": "Do not attribute repeated instrumentation-only stationarity evaluations to the intrinsic penalty solver; retain the cost of evaluating its final feasible candidate.",
+  "preservation": "Keep unadjusted elapsed time, all monitoring durations and all oracle counts in the raw results; do not rerun or alter PB-AMD or PGD.",
+  "target": 0.0001,
+  "curves": "Median and interquartile range over every one of the same ten seeds in each panel. No failures are removed."
+}

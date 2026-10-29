@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+Control_Theoretic_DP_Numerics/data/
+Control_Theoretic_DP_Numerics/results/
+Control_Theoretic_DP_Numerics/paper_artifacts/
+experiments/**/results/
+experiments/**/confirmation/
+experiments/**/budget_extension/
+experiments/**/armijo_results/
+experiments/**/penalty_results/
+experiments/**/paper_update/*.pdf
+experiments/**/paper_update/*.tex
+output/
